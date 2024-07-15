@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"
+      integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Temperature Conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="temp-body">
+        <h1>Temperature Conversion</h1>
+        <input type="number" name="temp" id=" " />
+        <br />
+        <input type="radio" name="radio-btn" id="r1" />
+        <label for="r1">Fahrenheit to Celsius</label>
+        <br />
+        <input type="radio" name="radio-btn" id="r2" />
+        <label for="r2">Celsius to Fahrenheit</label>
+        <br />
+        <button id="submit" onclick="convert()">Submit</button>
+        <p id="result"></p>
+         <div class="footer">
+      <p>Created with <i class="fas fa-heart"></i> by Meghasyam</p>
+      <div class="social">
+        <a href="https://github.com/Meghasyam283">
+          <i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/b-meghasyam-b6084b185/">
+          <i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      </div>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
